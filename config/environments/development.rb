@@ -1,4 +1,10 @@
 Rails.application.configure do
+  config.logger = ActiveSupport::Logger.new(
+                    config.paths['log'].first,
+                    3,
+                    5242880
+                  )
+                  
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
