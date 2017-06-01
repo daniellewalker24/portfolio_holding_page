@@ -380,7 +380,7 @@ $btn-draw-size: 1px;
         // Apply box shadow for a more 3d effect. js applies this value.
         //box-shadow: 0 0 0 rgba(25, 30, 46, 0.4);
         overflow: hidden;
-      
+
     }
     // Apply Colors to our backgrounds and set currentColor
     &:nth-of-type(1n) .velo-slide__bg {
@@ -535,6 +535,10 @@ $btn-draw-size: 1px;
     display: block;
     overflow-y: hidden;
     padding: 0.02em 0;
+
+    &.hero {
+      color: $electric-blue;
+    }
 }
 
 .oh span {
@@ -697,4 +701,8 @@ $btn-draw-size: 1px;
 
 .icon-right-arrow:before {
     content: "\e907";
+}
+
+.hero-name {
+  color: $electric-blue;
 }
